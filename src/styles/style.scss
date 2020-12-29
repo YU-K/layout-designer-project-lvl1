@@ -8,13 +8,20 @@ $translucent-dark: #908d8b;
 $brown: #b09a81;
 $blue: #1085c5;
 
+@font-face {
+font-family: "Neucha";
+src: url("../fonts/neucha/Neucha-Regular.ttf");
+}
+
 
 body {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   color: #2a2626;
   line-height: 1.6em;
-  width: 100%;
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -49,8 +56,65 @@ footer {
 
 }
 
+.hasBackground::before {
+  content: "";
+  background: no-repeat url("../images/background.png");
+  background-size: cover;
+  opacity: 10%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 header {
   margin-top: 100px;
+  // background: no-repeat url("../background.png");
+  // background-size: cover;
+  // opacity: 90%;
+  text-align: left;
+}
+
+header > h1 {
+  position: absolute;
+}
+
+header > h1 > span {
+  color: $main;
+}
+
+header > img {
+  height: 525px;
+  position: relative;
+  top: 55px;
+  right: -270px;
+
+}
+
+header > p {
+  width: 540px;
+  text-align: left;
+}
+
+header > p:nth-child(3) {
+  position: absolute;
+}
+
+header > p:nth-child(4) {
+  position: relative;
+  left: 570px;
+}
+
+header > a {
+  color: $white;
+  background: $main;
+  font-weight: bold;
+  padding: 12px 24px 12px 24px;
+  position: relative;
+  left: 570px;
+  top: 40px;
+  text-decoration: none;
 }
 
 footer {
