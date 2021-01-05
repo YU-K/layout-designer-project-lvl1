@@ -9,41 +9,100 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="hasBackground">
-        <h1><span>Когнитивные<br>искажения</span><br>в программировании</h1>
-        <img src="/src/images/tota.png" alt="">
-        <p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем
-        целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться,
-        а иногда, к сожалению, нет.</p>
-        <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию. <br><br>
-        Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки
-        нейтрализовать.</p>
-        <a href="#">ПОДРОБНЕЕ</a>
+    <header class="bg">
+        <div class="container relative">
+                <h1 class="relative"><span class="main-color">Когнитивные<br>искажения</span><br>в программировании</h1>
+                <img class="img absolute" src="/src/images/tota.png" alt="">
+                <div class="text">
+                    <p class="absolute">Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто
+                    игнорируем
+                    целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то
+                    справиться,
+                    а иногда, к сожалению, нет.</p>
+                <p class="relative">Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности,
+                    багам и бесконечному разочарованию. <br><br>
+                    Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а
+                    остатки
+                    нейтрализовать.</p>
+                <a class="link relative" href="#navigation">подробнее</a>
+                </div>
+
+        </div>
     </header>
     <main>
-        <section>
-            <h2>Что же это такое, когнитивные искажения?</h2>
+        <section class="video-section">
+            <div class="container pd-0">
+                <h2 class="relative">Что же это такое,<br><span>когнитивные искажения?</span></h2>
+                <p class="relative">Что такое когнитивные искажения. Petrovna Channel</p>
+                <iframe class="video relative" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="rectungle"></div>
+
         </section>
-        <section>
-            <h2>5 когнитивных искажений о существовании которых стоит помнить</h2>
+        <section id="navigation" class="bg-dark">
+            <div class="container d-flex ">
+                    <p class="navigation-title">
+                        <span>5 когнитивных <br>искажений<br></span> о существовании которых стоит помнить
+                    </p>
+                    <a href="" class="card">
+                        <span class="card-number">1</span>
+                        <h3 class="card-title">Эффект ИКЕА</h3>
+                        <p class="card-body">
+                        Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.
+
+                        </p>
+                    </a>
+                    <a href="" class="card">
+                        <span class="card-number">2</span>
+                        <h3 class="card-title">Преждевременная<br> оптимизация</h3>
+                        <p class="card-body">
+                            Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.
+                        </p>
+
+                    </a>
+                    <a href="" class="card h-348 mg-0">
+                        <span class="card-number">3</span>
+                        <h3 class="card-title">Искажение новизны</h3>
+                        <p class="card-body">
+                            Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые
+                        </p>
+                    </a>
+                    <a href="" class="card mg-0 h-348">
+                        <span class="card-number">4</span>
+                        <h3 class="card-title">Гиперболическое обесценивание</h3>
+                        <p class="card-body">
+                            Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.
+                        </p>
+                    </a>
+                    <a href="" class="card mg-0 h-348"><span class="card-number">5</span>
+                        <h3 class="card-title">Ошибка планирования</h3>
+                        <p class="card-body">
+                            Неправильно рассчитывать время необходимое для завершения задачи.
+                        </p>
+                    </a>
+                </div>
+
+
         </section>
-        <section class="hasBackground">
-            <h2>Эффект ИКЕА</h2>
-        </section>
-        <section class="hasBackground">
-            <h2>Преждевременная оптимизация</h2>
-        </section>
-        <section class="hasBackground">
-            <h2>Искажение новизны</h2>
-        </section>
-        <section class="hasBackground">
-            <h2>Гиперболическое обесценивание</h2>
-        </section>
-        <section class="hasBackground">
-            <h2>Ошибка планирования</h2>
-        </section>
-    </main>
-    <footer></footer>
+            <!-- <section class="bg">
+                    <h2>Эффект ИКЕА</h2>
+                </section>
+                <section class="bg">
+                    <h2>Преждевременная оптимизация</h2>
+                </section>
+                <section class="bg">
+                    <h2>Искажение новизны</h2>
+                </section>
+                <section class="bg">
+                    <h2>Гиперболическое обесценивание</h2>
+                </section>
+                <section class="bg">
+                    <h2>Ошибка планирования</h2>
+                </section> -->
+        </main>
+        <footer></footer>
+
 
 </body>
 </html>
