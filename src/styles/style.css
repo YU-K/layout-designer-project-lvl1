@@ -337,6 +337,84 @@ iframe {
   color: var(--white);
 }
 
-footer {
-  margin-bottom: 100px;
+footer h3 {
+  margin: 55px 0 0 55px;
+
+  padding-bottom: 55px;
+
+  color: var(--white);
+}
+
+.footer {
+  background: var(--basic-dark);
+}
+
+.wrapper {
+  padding-top: 38px;
+}
+
+label {
+  color: var(--white);
+  font-size: 18px;
+}
+
+input {
+  box-sizing: border-box;
+
+  width: 423px;
+  height: 50px;
+
+  padding: 15px;
+}
+
+input::placeholder {
+  color: #757575;
+
+  opacity: 0.2;
+}
+
+button {
+  position: relative;
+
+  right: 55px;
+
+  width: 70px;
+  height: 50px;
+
+  padding: 0;
+
+  vertical-align: middle;
+
+  background: var(--main);
+
+  border: none;
+}
+
+button::before {
+  position: absolute;
+
+  top: 15px;
+  left: 20px;
+
+  content: url("../images/send.svg");
+}
+
+button:hover {
+  background: #ea7600;
+
+  cursor: pointer;
+}
+
+.agreement {
+  color: var(--white);
+
+  font-size: 12px;
+}
+
+.contacts {
+  margin-top: 60px;
+
+  font-size: 14px;
+
+  text-align: center;
 }
