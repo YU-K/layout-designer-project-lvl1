@@ -6,7 +6,7 @@ lint:
 	npx htmlhint ./src/*.html
 
 deploy:
-	npx surge ./src/
+	npx surge surge
 
 sass:	# compiling css
 	sass src/styles/style.scss src/styles/style.css
