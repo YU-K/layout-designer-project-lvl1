@@ -162,6 +162,13 @@ body {
   background: #ea7600;
 }
 
+.video {
+  right: 0;
+  left: 0;
+
+  margin: auto;
+}
+
 .w-350 {
   width: 350px;
 }
@@ -235,12 +242,16 @@ iframe {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.rectungle {
-  height: 100px;
-}
-
 .pd-0 {
   padding: 0;
+}
+
+.mt-389 {
+  margin-top: 389px;
+}
+
+.pt-100 {
+  padding-top: 100px;
 }
 
 .pd-bottom-50 {
